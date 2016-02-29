@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "TargetArn",
+    "RuleArn"
+  ],
+  "properties": {
+    "Input": {
+      "type": "string"
+    },
+    "InputPath": {
+      "type": "string"
+    },
+    "RuleArn": {
+      "type": "string"
+    },
+    "TargetArn": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
